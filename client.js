@@ -10,7 +10,7 @@ function connectServer() {
         console.log(error)
     })
 
-    io.on('requestFinaceAproved', data =>{
+    io.on('some_url_to_listen_from_server', data =>{
         console.log(data)
     })
 
